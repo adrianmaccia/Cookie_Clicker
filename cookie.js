@@ -6,7 +6,6 @@ function cookieClick(){
     document.getElementById('counter').innerHTML = cookiecount;
 }
 
-
 function upgrade(){
     if (cookiecount >= ((autoClick+1) * 10)) {  
         cookiecount -= ((autoClick+1) * 10);   
@@ -19,3 +18,7 @@ function upgrade(){
     }
 }
 
+setInterval(function(){
+    cookiecount += autoClick;
+    document.getElementById('counter').innerHTML = cookiecount;
+},1000);
