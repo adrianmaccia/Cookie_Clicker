@@ -1,5 +1,5 @@
 body{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .centerDiv{
@@ -10,20 +10,29 @@ body{
 }
 
 .counterDiv{
-    padding-top: 20px;
+    padding-top: 10px;
+}
+
+h1{
+    margin: 0px;
 }
 
 .shopDiv1, .shopDiv2{
-    width: 350px;   
+    width: 320px;   
     border-style: solid;
-    margin-bottom: 10px;
+    border-width: 3px;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 .text1, .text2{
    float: left;
+   padding-left: 10px;
 }
 
 .img1, .img2{
+    padding-top: 13px;
+    padding-right: 10px;
     float: right;
 }
 
