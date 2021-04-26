@@ -1,4 +1,4 @@
-var cookiecount = 100;
+var cookiecount = 0;
 var autoClick = 0;
 
 var extraCook = 0;
