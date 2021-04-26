@@ -18,22 +18,19 @@ h1{
 }
 
 .shopDiv1, .shopDiv2{
-    width: 320px;   
     border-style: solid;
+    width: 300px;   
     border-width: 3px;
-    padding: 5px;
-    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text1, .text2{
-   float: left;
-   padding-left: 10px;
-}
-
-.img1, .img2{
-    padding-top: 13px;
-    padding-right: 10px;
-    float: right;
+    line-height: 10px;
 }
 
 

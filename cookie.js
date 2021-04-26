@@ -1,4 +1,4 @@
-var cookiecount = 0;
+var cookiecount = 100;
 var autoClick = 0;
 
 var extraCook = 0;
@@ -12,8 +12,8 @@ function upgrade1(){
     if (cookiecount >= ((autoClick+1) * 10)){  
         cookiecount -= ((autoClick+1) * 10);   
         autoClick += 1; 
-        document.getElementById('upgradeCost1').innerHTML = "Purchase for " + ((autoClick+1) * 10) + " Cookies";
-        document.getElementById('upgradeAmount1').innerHTML = "Clicks per second: " + autoClick;
+        document.getElementById('upgradeCost1').innerHTML = "<b>Purchase for " + ((autoClick+1) * 10) + " Cookies</b>";
+        document.getElementById('upgradeAmount1').innerHTML = "Extra cookies per secound: " + autoClick;
     }
     else{
         alert('You dont have enough cookies')
@@ -24,7 +24,7 @@ function upgrade2(){
     if (cookiecount >= 100){  
         cookiecount -= 100;   
         extraCook += 1; 
-        document.getElementById('upgradeAmount2').innerHTML = "Clicks per second: " + extraCook;
+        document.getElementById('upgradeAmount2').innerHTML = "Extra cookies per second: " + extraCook;
     }
     else{
         alert('You dont have enough cookies')
